@@ -19,6 +19,9 @@
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/ltgray</item>
     </style>
 
     <style name="Theme.Bacon.Detail">

@@ -8,4 +8,9 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="app_bar_height">4dp</dimen>
+    <dimen name="resting_fab_height">6dp</dimen>
+    <dimen name="pressed_fab_height">12dp</dimen>
+    <dimen name="resting_card_height">2dp</dimen>
+    <dimen name="pressed_card_height">8dp</dimen>
 </resources>

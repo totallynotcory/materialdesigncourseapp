@@ -299,12 +299,12 @@ public final class R {
 		public static final int abc_text_size_subtitle_material_toolbar = 0x7f080027;
 		public static final int abc_text_size_title_material = 0x7f080028;
 		public static final int abc_text_size_title_material_toolbar = 0x7f080029;
-		public static final int dialog_fixed_height_major = 0x7f080037;
-		public static final int dialog_fixed_height_minor = 0x7f080038;
-		public static final int dialog_fixed_width_major = 0x7f080039;
-		public static final int dialog_fixed_width_minor = 0x7f08003a;
-		public static final int disabled_alpha_material_dark = 0x7f08003b;
-		public static final int disabled_alpha_material_light = 0x7f08003c;
+		public static final int dialog_fixed_height_major = 0x7f080038;
+		public static final int dialog_fixed_height_minor = 0x7f080039;
+		public static final int dialog_fixed_width_major = 0x7f08003a;
+		public static final int dialog_fixed_width_minor = 0x7f08003b;
+		public static final int disabled_alpha_material_dark = 0x7f08003c;
+		public static final int disabled_alpha_material_light = 0x7f08003d;
 	}
 	public static final class drawable {
 		public static final int abc_ab_share_pack_mtrl_alpha = 0x7f020000;
