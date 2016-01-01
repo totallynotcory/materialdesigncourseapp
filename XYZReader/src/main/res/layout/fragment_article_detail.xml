@@ -17,13 +17,13 @@
                 android:id="@+id/photo_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/theme_primary">
-                android:elevation="@dimen/app_bar_height"
+                android:background="@color/theme_primary"
+                android:elevation="@dimen/app_bar_height">
                 <!--suppress AndroidLintContentDescription -->
-                <ImageView
+                <com.android.volley.toolbox.NetworkImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                      />
 
                 <View
@@ -33,7 +33,7 @@
 
             </FrameLayout>
 
-            <com.example.xyzreader.ui.MaxWidthLinearLayout
+            <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
 
                     <TextView
                         android:id="@+id/article_title"
-                        style="?android:attr/textAppearanceLarge"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
@@ -69,7 +69,7 @@
 
                     <TextView
                         android:id="@+id/article_byline"
-                        style="?android:attr/textAppearanceSmall"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/primary_text" />
@@ -77,7 +77,7 @@
 
                 <TextView
                     android:id="@+id/article_body"
-                    style="?android:attr/textAppearanceMedium"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
@@ -88,7 +88,7 @@
                     android:textSize="@dimen/detail_body_text_size"
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
 
-            </com.example.xyzreader.ui.MaxWidthLinearLayout>
+            </LinearLayout>
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
@@ -101,7 +101,7 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:src="@drawable/ic_share"
-        android:elevation="@dimen/fab_elevation"
+        android:elevation="@dimen/resting_fab_height"
         android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
