@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-590f1c416da47e18d502510203d53c25295fd195.jar" />
+    </item>
+    <item
         jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -91,13 +98,6 @@
         revision="22.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/picasso-2.5.2-650b8d41e4cdfd69e0b4650e6dcb658af8ba1fc2.jar" />
-    </item>
-    <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-b0766f3278b347df242b94f7c4a42ea0e51e8f0c.jar" />
     </item>
 
 </items>
