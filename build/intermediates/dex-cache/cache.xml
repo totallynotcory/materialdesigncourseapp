@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-124110293aab8a3d7753ada94872f951684b0b30.jar" />
-    </item>
-    <item
         jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
         <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-3885e78463af4d6c9e854016aaae300894c5dacb.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-8dab154001439b49d239eee3970fa1abe4618d6d.jar" />
     </item>
     <item
         jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
@@ -23,46 +23,11 @@
         <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-279af6b3dab8220ad401adf511220ed44059e32b.jar" />
     </item>
     <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-8051a4beb7701fb400f59b3a8fb6b3c901fa7b55.jar" />
-    </item>
-    <item
         jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/libs/volley.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
         <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley-d48fac3bd552307d53075ca46c1920c0a0622c91.jar" />
-    </item>
-    <item
-        jar="/Users/ctpotwin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-f5995b8ddebe4300e5feccf5af0978d4d538b3f0.jar" />
-    </item>
-    <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-b0766f3278b347df242b94f7c4a42ea0e51e8f0c.jar" />
-    </item>
-    <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-1d4f6f2a6ac20c66747815debc4d60b1b6ad7259.jar" />
-    </item>
-    <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-63f572aebf4c4919b3d3abed9de2125955de5450.jar" />
     </item>
     <item
         jar="/Users/ctpotwin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.1.0/d51280dbb4e8539f6c3f369d516edc26f9d89d31/okhttp-1.1.0.jar"
@@ -72,11 +37,67 @@
         <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-1.1.0-496dd593bed8236f5d104d41a555a6c0c5440960.jar" />
     </item>
     <item
-        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-82a87146352c4cad54863eac4a19f6e0b8c870c9.jar" />
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-124110293aab8a3d7753ada94872f951684b0b30.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-50c00dde85709a56849bd63d5146ecf30a796d08.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/glide-3.5.2-e27a71c41e2d13c5715e61580a34528c8325f910.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-8051a4beb7701fb400f59b3a8fb6b3c901fa7b55.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-2ed7ecf73a64ca36b49db166760217329075909c.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c7be44a9d7cee74f3e3b0a09072f6effaa6f6bb7.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-a6de59a3dd75064cecd701bb36153f37245dcbd5.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/picasso-2.5.2-650b8d41e4cdfd69e0b4650e6dcb658af8ba1fc2.jar" />
+    </item>
+    <item
+        jar="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-b0766f3278b347df242b94f7c4a42ea0e51e8f0c.jar" />
     </item>
 
 </items>

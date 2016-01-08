@@ -19,17 +19,18 @@
                 android:layout_height="wrap_content"
                 android:background="@color/theme_primary"
                 android:elevation="@dimen/app_bar_height">
-                <!--suppress AndroidLintContentDescription -->
-                <com.android.volley.toolbox.NetworkImageView
-                    android:id="@+id/photo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                     />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="112dp"
                     android:background="@drawable/photo_background_protection" />
+
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_primary"
+                    />
 
             </FrameLayout>
 
@@ -92,16 +93,20 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
-        android:stateListAnimator="@anim/fab_state_list_anim"
-        android:background="@drawable/add_fab_background"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:src="@drawable/ic_share"
-        android:elevation="@dimen/resting_fab_height"
-        android:contentDescription="@string/action_share" />
+    <android.support.design.widget.FloatingActionButton
+        app:fabSize="normal"
+        app:elevation="@dimen/resting_fab_height"
+        android:layout_gravity="end"
+        app:pressedTranslationZ="@dimen/pressed_fab_height"
+
+        android:id="@+id/share_fab"
+        android:src="@drawable/fab_plus"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="16dp"
+        />
+
+
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
