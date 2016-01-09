@@ -24,7 +24,7 @@
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentInsetStart="72dp"
             android:fitsSystemWindows="true"
             android:layout_gravity="bottom"
