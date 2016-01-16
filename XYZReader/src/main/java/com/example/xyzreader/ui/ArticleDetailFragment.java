@@ -152,13 +152,15 @@ public class ArticleDetailFragment extends Fragment implements
                             + "</font>"));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
 
-/*
-            Glide.with(this)
-                    .load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
+            String fullUrl = mCursor.getString(ArticleLoader.Query.PHOTO_URL);
+            String urlForImage = fullUrl.subSequence(0,4).toString()
+                    + fullUrl.subSequence(5, fullUrl.length());
+
+/*            Glide.with(this)
+                    .load(urlForImage)
                     .crossFade()
                     .placeholder(R.color.photo_placeholder)
-                    .into(mPhotoView);
-*/
+                    .into(mPhotoView);*/
 
         } else {
             mRootView.setVisibility(View.GONE);
