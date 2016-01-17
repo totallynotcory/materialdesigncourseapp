@@ -2,9 +2,9 @@
 Project built for the Udacity Android Nanodegree
 
 ##Features:
-Through this project, you will:
+Goals of this Project:
 
-Understand the fundamentals of Android design.
-Apply Material Design guidelines to an mobile application.
-Separate an interface into surfaces.
-Effectively use transitions and motion.
+* Understand the fundamentals of Android design.
+* Apply Material Design guidelines to an mobile application.
+* Separate an interface into surfaces.
+* Effectively use transitions and motion.
