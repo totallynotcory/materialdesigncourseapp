@@ -5,14 +5,8 @@ import android.app.LoaderManager;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.Color;
-import android.graphics.Rect;
-import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.ShareCompat;
-import android.support.v7.graphics.Palette;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
@@ -20,12 +14,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.ImageLoader;
 import com.bumptech.glide.Glide;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
@@ -40,15 +31,12 @@ public class ArticleDetailFragment extends Fragment implements
     private static final String TAG = "ArticleDetailFragment";
 
     public static final String ARG_ITEM_ID = "item_id";
-    private static final float PARALLAX_FACTOR = 1.25f;
 
     private Cursor mCursor;
     private long mItemId;
     private View mRootView;
 
     private ImageView mPhotoView;
-    private boolean mIsCard = false;
-
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -73,8 +61,7 @@ public class ArticleDetailFragment extends Fragment implements
             mItemId = getArguments().getLong(ARG_ITEM_ID);
         }
 
-        mIsCard = getResources().getBoolean(R.bool.detail_is_card);
-        setHasOptionsMenu(true);
+        //setHasOptionsMenu(true);
     }
 
     public ArticleDetailActivity getActivityCast() {
@@ -98,16 +85,6 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-
-        mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
-                        .setType("text/plain")
-                        .setText("Some sample text")
-                        .getIntent(), getString(R.string.action_share)));
-            }
-        });
 
         bindViews();
         return mRootView;
@@ -156,11 +133,23 @@ public class ArticleDetailFragment extends Fragment implements
             String urlForImage = fullUrl.subSequence(0,4).toString()
                     + fullUrl.subSequence(5, fullUrl.length());
 
-/*            Glide.with(this)
+            Glide.with(this)
                     .load(urlForImage)
                     .crossFade()
                     .placeholder(R.color.photo_placeholder)
-                    .into(mPhotoView);*/
+                    .into(mPhotoView);
+
+            mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
+                            .setType("text/plain")
+                            .setText("I'm reading " + mCursor.getString(ArticleLoader.Query.TITLE)
+                                      + " by " + mCursor.getString(ArticleLoader.Query.AUTHOR))
+                            .getIntent(), getString(R.string.action_share)));
+                }
+            });
+
 
         } else {
             mRootView.setVisibility(View.GONE);

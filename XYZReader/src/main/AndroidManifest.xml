@@ -25,6 +25,7 @@
 
         <activity
             android:name=".ui.ArticleDetailActivity"
+            android:theme="@style/Theme.Bacon.Detail"
             android:parentActivityName=".ui.ArticleListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -33,7 +34,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.ArticleListActivity" />
+                android:value="com.example.xyzreader.ui.ArticleListActivity" />
         </activity>
 
         <service android:name=".data.UpdaterService"

@@ -229,6 +229,9 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="detail_app_bar">128dp</dimen>
     <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="detail_body_bottom_margin">88dp</dimen>
@@ -1330,6 +1333,12 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DetailActionBar">
+        <item name="background">@color/theme_primary</item>
+        <item name="titleTextStyle">@color/primary_text</item>
+    </style>
     <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
@@ -1586,14 +1595,16 @@
     </style>
     <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="colorAccent">@color/theme_accent</item>
         <item name="android:textColorPrimary">@color/primary_text</item>
         <item name="android:textColorSecondary">@color/ltgray</item>
     </style>
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Detail" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/ltgray</item>
+        <item name="actionBarStyle">@style/DetailActionBar</item>
     </style>
     <!-- From: file:/Users/ctpotwin/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
